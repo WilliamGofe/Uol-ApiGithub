@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+ 
+@font-face {
+    font-family: 'Ubuntu Mono';
+}
+.p{
+ font-family: Ubuntu Mono;
+ font-size: 40px;
+}
+.inputLogin{
+height: 56px;
+width: 339px;
+border-radius: 18px;
+border: 0 ;
+outline:0;
+padding-top: 8px;
+font-size: 23px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+::-webkit-input-placeholder{
+    font-size: 23px;
+    padding-left: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #535353;
+}input:focus{
+  background-color: darkgray;
+}
+
+.iconP{
+font-family: Ubuntu Mono;
+font-size: 24px;
+color: #292929;
+}
+
+#nameRepo {
+  transform: rotate(-45deg);
+  cursor: pointer;
+  font-family: Ubuntu Mono;
+}
